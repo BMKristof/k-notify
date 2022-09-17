@@ -1,5 +1,5 @@
 # K | Notification
-Thank you for your purchase! Here's how to use the notification!
+Here's how to use the notification!
 
 # Client side
 
