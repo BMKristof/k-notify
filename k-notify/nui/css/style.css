@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+}
+
+body{
+    background-color: transparent;
+}
+
+.notification{
+    /* position: absolute; */
+    margin-bottom: 300px;
+    width: 340px;
+    height: 100%;
+    margin-left: 820px;
+    overflow: visible;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.notify{
+    margin-top: 20px;
+    margin-left: 0px;
+
+    background: #000000;
+    border-radius: 25px;
+    width: 326px;
+    min-height: 90px;
+    max-height: 120px;
+    overflow: auto;
+    clear: both;
+}
+
+.notify-green{
+    background: #000000;
+    box-shadow: 0px 4px 50px #00FF00;
+    
+}
+
+.notify-red{
+    background: rgb(0, 0, 0);
+    box-shadow: 0px 4px 50px #FF0000;
+}
+
+
+.notify-white{
+    background: #000000;
+    box-shadow: 0px 4px 50px #FFFFFF;
+}
+
+.red-icon{
+    margin-left: 34px !important;
+    margin-top: -9px !important;
+}
+
+
+.blue-icon{
+    margin-left: 30px !important;
+    margin-top: -5px !important;
+}
+
+.type{
+    height: 90px;
+    position: absolute;
+    margin-left: -5px;
+    margin-top: -17px;
+
+}
+
+.design{
+    height: 48px;
+    margin-top: 42px;
+}
+
+
+.pwhite{
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 10px;
+    max-width: 310px;
+    letter-spacing: 0.01em;
+    height: auto;
+    clear: both;
+}
+
+
+.pgreen {
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #00FF00;
+    margin-top: 50px;
+    margin-left: 10px;
+    max-width: 310px;
+    letter-spacing: 0.01em;
+    height: auto;
+    clear: both;  
+}
+
+.pred {
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FF0000;
+    margin-top: 50px;
+    margin-left: 10px;
+    max-width: 310px;
+    letter-spacing: 0.01em;
+    height: auto;
+    clear: both;  
+}
+
+
+.title-pwhite{
+    position: absolute;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 90px;
+    color: white;
+    font-size: 28px;
+}
+
+.title-pgreen{
+    position: absolute;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 90px;
+    color: #00FF00;
+    font-size: 28px;
+}
+
+.title-pred{
+    position: absolute;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 90px;
+    color: #FF0000;
+    font-size: 28px;
+}
+
+
+
+
+.dot1{
+    position: absolute;
+    height: 14px;
+    margin-left: -42px;
+    margin-top: 45px;
+}
+
+.dot2{
+    position: absolute;
+    height: 8px;
+    margin-left: -6px;
+    margin-top: 67px;
+}
