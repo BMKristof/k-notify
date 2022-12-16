@@ -11,7 +11,7 @@ end
 
 
 AddEventHandler('knotify:notify')
-RegisterNetEvent('knotify:notify', function(text,title,  type, duration)
+RegisterNetEvent('knotify:notify', function(type,title,  text, duration)
 	local duration
 	if duration == nil then duration = 2500 end
 	SendNotify(type, title, text, duration)
